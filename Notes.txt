@@ -295,31 +295,37 @@ REACT INTERVIEW TOPICS:
 JavaScript Coding (MOST ASKED)
 1️⃣ Implement debounce() from scratch - D
 2️⃣ Implement throttle() from scratch - D
-3️⃣ Flatten a deeply nested array and object both
+3️⃣ Flatten a deeply nested array and object both -D
 4️⃣ Polyfill for map, filter, reduce, bind
 5️⃣ Remove duplicates from an array (without using Set) - D
-6️⃣ Deep clone an object 
+6️⃣ Deep clone an object - D
 7️⃣ Find the first non-repeating character in a string - D
-8️⃣ Implement memoization
+8️⃣ Implement memoization 
 9️⃣ Convert callback-based function to Promise
 
  Currying for Infinite Sum
-👉 sum(10)(20)(30)() → 60
-👉 sum(10)(20)(30)(40)(50)(60)() → 210
+👉 sum(10)(20)(30)() → 60 -D
+👉 sum(10)(20)(30)(40)(50)(60)() → 210 -D
 
 🔹 React Coding (Live Round Favorites)
 • Build a counter with start / pause / reset
 • Create a search filter with debouncing
 • Implement infinite scrolling
 • Build a Todo app with add/edit/delete
-
 • Implement controlled vs uncontrolled input
-• Create sorting & pagination from scratch
-• Render a dynamic form from JSON
 • Implement lazy loading manually
+
+• Create sorting & pagination from scratch
+• Responsive sidebar navigation bar
+• Accordion
+
+• Render a dynamic form from JSON
 • Event delegation implementation
+• Local Strorage, Session Storage, JWT TOken and Authorization
 • Build a modal from scratch (no libraries)
 • Drag & drop , dropdown using vanilla JS
 • Detect click outside an element
+
+
 
 
