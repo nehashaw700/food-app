@@ -315,16 +315,20 @@ JavaScript Coding (MOST ASKED)
 • Implement controlled vs uncontrolled input
 • Implement lazy loading manually
 
-• Create sorting & pagination from scratch
-• Responsive sidebar navigation bar
-• Accordion
+• Local Strorage, Session Storage, JWT TOken and Authorization - Thurs & Fri
+• Create sorting & pagination from scratch - Wed
+• Responsive sidebar navigation bar - Sat
+• Accordion - Sun
 
 • Render a dynamic form from JSON
 • Event delegation implementation
-• Local Strorage, Session Storage, JWT TOken and Authorization
 • Build a modal from scratch (no libraries)
 • Drag & drop , dropdown using vanilla JS
 • Detect click outside an element
+
+
+1 dsa + 1 react practical
+next week - context api + redux
 
 
 
