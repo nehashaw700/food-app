@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ItemCard from "./ItemCard";
 
 const RestaurantCategory = ({data, showResItems, setShowIndex}) => {
 
@@ -18,11 +19,13 @@ const RestaurantCategory = ({data, showResItems, setShowIndex}) => {
 
             {console.log("item cards: ", data?.itemCards)}
 
-            {showResItems && toggleResItems && <div>
+            {showResItems && toggleResItems && <div className="res-category-items" >
                 <ul>
                     {data?.itemCards.map((itemCard) => {
                         return (
-                            <li key = {itemCard?.card?.info?.id}> {itemCard?.card?.info?.name}  </li>
+                            <li key = {itemCard?.card?.info?.id} >   
+                            <ItemCard itemInfo={itemCard?.card?.info} />
+                            </li>
                         )
                     })
                     }

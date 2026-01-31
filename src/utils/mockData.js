@@ -1,1410 +1,2177 @@
 const restaurantListData = [
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "608594",
-          name: "Pizza Hut",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/961a4640-ad96-464d-99a5-13430add9f98_608594.JPG",
-          locality: "Sector 15A",
-          areaName: "Sector 15A",
-          costForTwo: "₹350 for two",
-          cuisines: ["Pizzas"],
-          avgRating: 4.3,
-          parentId: "721",
-          avgRatingString: "4.3",
-          totalRatingsString: "1.5K+",
-          sla: {
-            deliveryTime: 44,
-            lastMileTravel: 3,
-            serviceability: "SERVICEABLE",
-            slaString: "40-45 mins",
-            lastMileTravelString: "3.0 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2025-11-25 03:45:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "4.0",
-              ratingCount: "2.0K+",
-            },
-            source: "GOOGLE",
-            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/pizza-hut-sector-15a-rest608594",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  {
+    "info": {
+      "id": "657322",
+      "name": "Chinese Wok",
+      "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+      "locality": "Dussehra Ground",
+      "areaName": "PM Mall",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Chinese",
+        "Asian",
+        "Tibetan",
+        "Desserts"
+      ],
+      "avgRating": 4.2,
+      "parentId": "61955",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "1.5K+",
+      "sla": {
+        "deliveryTime": 29,
+        "lastMileTravel": 4.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "4.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "736173",
-          name: "Olio - The Wood Fired Pizzeria",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/24/90630573-6cc3-4161-a5f2-41ad6396db70_736173.JPG",
-          locality: "Neelam Bata Chowk",
-          areaName: "Sector 31",
-          costForTwo: "₹300 for two",
-          cuisines: [
-            "Pizzas",
-            "Pastas",
-            "Italian",
-            "Fast Food",
-            "Snacks",
-            "Beverages",
-            "Desserts",
-          ],
-          avgRating: 4.2,
-          parentId: "11633",
-          avgRatingString: "4.2",
-          totalRatingsString: "1.9K+",
-          sla: {
-            deliveryTime: 52,
-            lastMileTravel: 8.4,
-            serviceability: "SERVICEABLE",
-            slaString: "50-60 mins",
-            lastMileTravelString: "8.4 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2025-11-25 05:30:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+      "availability": {
+        "nextCloseTime": "2026-01-31 01:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Chinese.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
               {
-                imageId: "newg.png",
-                description: "Gourmet",
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Chinese.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹119"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/chinese-wok-dussehra-ground-pm-mall-rest657322",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "65081",
+      "name": "Theobroma",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/1/6/4438b1d2-3a7e-43dc-837f-18fc4d00d530_65081.JPG",
+      "locality": "Sector 15",
+      "areaName": "Sector 15",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Bakery",
+        "Desserts"
+      ],
+      "avgRating": 4.6,
+      "parentId": "1040",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "7.9K+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 4.2,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "4.2 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2026-01-30 23:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Desserts.png",
+            "description": "Delivery!"
+          },
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                }
+              },
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "discountTag": "FLAT DEAL"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "4.1",
+          "ratingCount": "473"
+        },
+        "source": "GOOGLE",
+        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/theobroma-sector-15-rest65081",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "637287",
+      "name": "The Belgian Waffle Co.",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/16/8fa53ae0-16d6-4185-9380-b982f505a1d0_637287.jpg",
+      "locality": "Shopping Centre Market",
+      "areaName": "Sector 15",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Waffle",
+        "Desserts",
+        "Ice Cream",
+        "Beverages"
+      ],
+      "avgRating": 4.4,
+      "veg": true,
+      "parentId": "2233",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "1.7K+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 4.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30-40 mins",
+        "lastMileTravelString": "4.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2026-01-31 02:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/the-belgian-waffle-co-shopping-centre-market-sector-15-rest637287",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "780926",
+      "name": "Subway",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/f704c306-98e9-4b9c-a0d6-39a019a147fe_780926.jpg",
+      "locality": "Mehta Road",
+      "areaName": "Pacific Mall of Faridabad",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "sandwich",
+        "Salads",
+        "wrap",
+        "Healthy Food"
+      ],
+      "avgRating": 4.2,
+      "parentId": "2",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "780",
+      "sla": {
+        "deliveryTime": 30,
+        "lastMileTravel": 4.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "4.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2026-01-30 23:00:00",
+        "opened": true
+      },
+      "badges": {
+
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹69"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/subway-mehta-road-pacific-mall-of-faridabad-rest780926",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "56999",
+      "name": "La Pino'z Pizza",
+      "cloudinaryImageId": "mzb8tq7ccskyvadm9mt2",
+      "locality": "Sector 15",
+      "areaName": "Sector 15",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Pizzas",
+        "Pastas",
+        "Italian",
+        "Desserts",
+        "Beverages"
+      ],
+      "avgRating": 4.2,
+      "parentId": "4961",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "19K+",
+      "sla": {
+        "deliveryTime": 27,
+        "lastMileTravel": 4.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "4.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2026-01-31 02:00:00",
+        "opened": true
+      },
+      "badges": {
+
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹78"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "3.9",
+          "ratingCount": "722"
+        },
+        "source": "GOOGLE",
+        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/la-pinoz-pizza-sector-15-rest56999",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "170934",
+      "name": "Wow! Momo",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/30/438fb10c-ecd8-4272-b4ca-0ad5050f4674_170934.jpg",
+      "locality": "Sector 15",
+      "areaName": "Sector 15",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Momos",
+        "Chinese",
+        "fastfood",
+        "Asian",
+        "Beverages"
+      ],
+      "avgRating": 4.1,
+      "parentId": "1776",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "2.7K+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 4.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "4.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2026-01-31 03:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Chinese.png",
+            "description": "Delivery!"
+          },
+          {
+            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Momo.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Chinese.png"
+                }
+              },
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Momo.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹69"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "4.7",
+          "ratingCount": "160"
+        },
+        "source": "GOOGLE",
+        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/wow-momo-sector-15-rest170934",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "327587",
+      "name": "Delights by INOX",
+      "cloudinaryImageId": "b857fcf611707fedd3773eb02688f925",
+      "locality": "Ef3 Mall",
+      "areaName": "Sector 20",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Snacks"
+      ],
+      "avgRating": 3.7,
+      "parentId": "385095",
+      "avgRatingString": "3.7",
+      "totalRatingsString": "28",
+      "sla": {
+        "deliveryTime": 23,
+        "lastMileTravel": 0.2,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "0.2 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2026-01-30 23:57:00",
+        "opened": true
+      },
+      "badges": {
+
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/delights-by-inox-ef3-mall-sector-20-rest327587",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "792013",
+      "name": "Karigari - By Chef Harpal Singh Sokhi",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/24/7a1fba10-29d0-4740-9d43-c9e027037c5d_792013.jpg",
+      "locality": "Bata Chowk Metro Station",
+      "areaName": "Sector 16_FBD",
+      "costForTwo": "₹800 for two",
+      "cuisines": [
+        "North Indian",
+        "kebabs",
+        "Biryani",
+        "Mughlai"
+      ],
+      "avgRating": 4.3,
+      "parentId": "527617",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "893",
+      "sla": {
+        "deliveryTime": 28,
+        "lastMileTravel": 2.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "2.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2026-01-30 23:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+
+          },
+          "textExtendedBadges": {
+
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹149"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "lottie": {
+
+          },
+          "video": {
+
+          }
+        }
+      },
+      "reviewsSummary": {
+
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+
+      },
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-667c4178-dcb5-482b-a3d1-7c54f6f8faca"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/faridabad/karigari-by-chef-harpal-singh-sokhi-bata-chowk-metro-station-sector-16-fbd-rest792013",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "608594",
+      name: "Pizza Hut",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/961a4640-ad96-464d-99a5-13430add9f98_608594.JPG",
+      locality: "Sector 15A",
+      areaName: "Sector 15A",
+      costForTwo: "₹350 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 4.3,
+      parentId: "721",
+      avgRatingString: "4.3",
+      totalRatingsString: "1.5K+",
+      sla: {
+        deliveryTime: 44,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "40-45 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 03:45:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.0",
+          ratingCount: "2.0K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/pizza-hut-sector-15a-rest608594",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "736173",
+      name: "Olio - The Wood Fired Pizzeria",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/24/90630573-6cc3-4161-a5f2-41ad6396db70_736173.JPG",
+      locality: "Neelam Bata Chowk",
+      areaName: "Sector 31",
+      costForTwo: "₹300 for two",
+      cuisines: [
+        "Pizzas",
+        "Pastas",
+        "Italian",
+        "Fast Food",
+        "Snacks",
+        "Beverages",
+        "Desserts",
+      ],
+      avgRating: 4.2,
+      parentId: "11633",
+      avgRatingString: "4.2",
+      totalRatingsString: "1.9K+",
+      sla: {
+        deliveryTime: 52,
+        lastMileTravel: 8.4,
+        serviceability: "SERVICEABLE",
+        slaString: "50-60 mins",
+        lastMileTravelString: "8.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 05:30:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "newg.png",
+            description: "Gourmet",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Gourmet",
+                  imageId: "newg.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "Gourmet",
-                      imageId: "newg.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹119",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/olio-the-wood-fired-pizzeria-neelam-bata-chowk-sector-31-rest736173",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "76444",
-          name: "Rama Bhojnalaya (Original since 1975)",
-          cloudinaryImageId: "nwmu8u0ngvsr8tkibjx8",
-          locality: "Sector 7",
-          areaName: "Sector 7",
-          costForTwo: "₹250 for two",
-          cuisines: ["North Indian", "Indian"],
-          avgRating: 4.2,
-          veg: true,
-          parentId: "15727",
-          avgRatingString: "4.2",
-          totalRatingsString: "10K+",
-          sla: {
-            deliveryTime: 33,
-            lastMileTravel: 6.3,
-            serviceability: "SERVICEABLE",
-            slaString: "30-35 mins",
-            lastMileTravelString: "6.3 km",
-            iconType: "ICON_TYPE_EMPTY",
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹119",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/olio-the-wood-fired-pizzeria-neelam-bata-chowk-sector-31-rest736173",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "76444",
+      name: "Rama Bhojnalaya (Original since 1975)",
+      cloudinaryImageId: "nwmu8u0ngvsr8tkibjx8",
+      locality: "Sector 7",
+      areaName: "Sector 7",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Indian"],
+      avgRating: 4.2,
+      veg: true,
+      parentId: "15727",
+      avgRatingString: "4.2",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 33,
+        lastMileTravel: 6.3,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "6.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-24 23:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
           },
-          availability: {
-            nextCloseTime: "2025-11-24 23:00:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "v1695133679/badges/Pure_Veg111.png",
-                description: "pureveg",
+                attributes: {
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          aggregatedDiscountInfoV2: {},
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "pureveg",
-                      imageId: "v1695133679/badges/Pure_Veg111.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "3.9",
-              ratingCount: "1.5K+",
-            },
-            source: "GOOGLE",
-            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/rama-bhojnalaya-original-since-1975-sector-7-rest76444",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "483339",
-          name: "ZAZA Mughal Biryani",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/7ecf81cb-2ef7-4ada-92d6-61ec8e6c8653_483339.jpg",
-          locality: "Kc Road",
-          areaName: "Badkal Lake",
-          costForTwo: "₹250 for two",
-          cuisines: ["Biryani", "North Indian", "Awadhi"],
-          avgRating: 4.5,
-          parentId: "22473",
-          avgRatingString: "4.5",
-          totalRatingsString: "717",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "3.9",
+          ratingCount: "1.5K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/rama-bhojnalaya-original-since-1975-sector-7-rest76444",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "483339",
+      name: "ZAZA Mughal Biryani",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/7ecf81cb-2ef7-4ada-92d6-61ec8e6c8653_483339.jpg",
+      locality: "Kc Road",
+      areaName: "Badkal Lake",
+      costForTwo: "₹250 for two",
+      cuisines: ["Biryani", "North Indian", "Awadhi"],
+      avgRating: 4.5,
+      parentId: "22473",
+      avgRatingString: "4.5",
+      totalRatingsString: "717",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Biryani.png",
+            description: "Delivery!",
           },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "Rxawards/_CATEGORY-Biryani.png",
-                description: "Delivery!",
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Biryani.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "Delivery!",
-                      imageId: "Rxawards/_CATEGORY-Biryani.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/zaza-mughal-biryani-kc-road-badkal-lake-rest483339",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "681599",
-          name: "LeanCrust Pizza- ThinCrust Experts",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/d97ea843-7c81-4362-a9a9-d55a7054c09c_681599.jpg",
-          locality: "K C Road",
-          areaName: "New Industrial Township",
-          costForTwo: "₹300 for two",
-          cuisines: ["Pizzas", "Italian", "Desserts"],
-          avgRating: 4.7,
-          parentId: "11216",
-          avgRatingString: "4.7",
-          totalRatingsString: "803",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/leancrust-pizza-thincrust-experts-k-c-road-new-industrial-township-rest681599",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "1151985",
-          name: "Zulu's Pizza - Fresh Fanatics",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/21/65c93065-98a7-4c77-8141-a7fc3f8e063d_1151985.JPG",
-          locality: "KC Road",
-          areaName: "Badkal Lake",
-          costForTwo: "₹200 for two",
-          cuisines: ["Pizzas", "Italian", "Fast Food", "Desserts", "Beverages"],
-          avgRating: 4.6,
-          parentId: "661655",
-          avgRatingString: "4.6",
-          totalRatingsString: "17",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          isNewlyOnboarded: true,
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/zulus-pizza-fresh-fanatics-kc-road-badkal-lake-rest1151985",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "643819",
-          name: "WeFit - Protein Bowls, Salads & Sandwiches",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/3/ade3c596-ac60-46ce-8c9f-a0cd3fa4e402_643819.jpg",
-          locality: "K C Road",
-          areaName: "NIT_FBD",
-          costForTwo: "₹250 for two",
-          cuisines: ["Healthy Food", "Salads", "Keto", "Snacks"],
-          avgRating: 4.7,
-          parentId: "355285",
-          avgRatingString: "4.7",
-          totalRatingsString: "866",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/zaza-mughal-biryani-kc-road-badkal-lake-rest483339",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "681599",
+      name: "LeanCrust Pizza- ThinCrust Experts",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/d97ea843-7c81-4362-a9a9-d55a7054c09c_681599.jpg",
+      locality: "K C Road",
+      areaName: "New Industrial Township",
+      costForTwo: "₹300 for two",
+      cuisines: ["Pizzas", "Italian", "Desserts"],
+      avgRating: 4.7,
+      parentId: "11216",
+      avgRatingString: "4.7",
+      totalRatingsString: "803",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/leancrust-pizza-thincrust-experts-k-c-road-new-industrial-township-rest681599",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "1151985",
+      name: "Zulu's Pizza - Fresh Fanatics",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/21/65c93065-98a7-4c77-8141-a7fc3f8e063d_1151985.JPG",
+      locality: "KC Road",
+      areaName: "Badkal Lake",
+      costForTwo: "₹200 for two",
+      cuisines: ["Pizzas", "Italian", "Fast Food", "Desserts", "Beverages"],
+      avgRating: 4.6,
+      parentId: "661655",
+      avgRatingString: "4.6",
+      totalRatingsString: "17",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/zulus-pizza-fresh-fanatics-kc-road-badkal-lake-rest1151985",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "643819",
+      name: "WeFit - Protein Bowls, Salads & Sandwiches",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/3/ade3c596-ac60-46ce-8c9f-a0cd3fa4e402_643819.jpg",
+      locality: "K C Road",
+      areaName: "NIT_FBD",
+      costForTwo: "₹250 for two",
+      cuisines: ["Healthy Food", "Salads", "Keto", "Snacks"],
+      avgRating: 4.7,
+      parentId: "355285",
+      avgRatingString: "4.7",
+      totalRatingsString: "866",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "High%20Protein/rx%20tag%205.png",
+            description: "High Protein",
           },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "High%20Protein/rx%20tag%205.png",
-                description: "High Protein",
+                attributes: {
+                  description: "High Protein",
+                  imageId: "High%20Protein/rx%20tag%205.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "High Protein",
-                      imageId: "High%20Protein/rx%20tag%205.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹149",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/wefit-protein-bowls-salads-and-sandwiches-k-c-road-nit-fbd-rest643819",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "1219428",
-          name: "Salad Days",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/8/d39cf270-961f-4f3a-bb8f-dfca91db02ce_1219428.jpg",
-          locality: "Post Office",
-          areaName: "Sector 16_FBD",
-          costForTwo: "₹500 for two",
-          cuisines: ["Salads"],
-          avgRating: 4.7,
-          parentId: "796",
-          avgRatingString: "4.7",
-          totalRatingsString: "71",
-          sla: {
-            deliveryTime: 34,
-            lastMileTravel: 4.2,
-            serviceability: "SERVICEABLE",
-            slaString: "30-35 mins",
-            lastMileTravelString: "4.2 km",
-            iconType: "ICON_TYPE_EMPTY",
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹149",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/wefit-protein-bowls-salads-and-sandwiches-k-c-road-nit-fbd-rest643819",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "1219428",
+      name: "Salad Days",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/8/d39cf270-961f-4f3a-bb8f-dfca91db02ce_1219428.jpg",
+      locality: "Post Office",
+      areaName: "Sector 16_FBD",
+      costForTwo: "₹500 for two",
+      cuisines: ["Salads"],
+      avgRating: 4.7,
+      parentId: "796",
+      avgRatingString: "4.7",
+      totalRatingsString: "71",
+      sla: {
+        deliveryTime: 34,
+        lastMileTravel: 4.2,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "4.2 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-24 23:59:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "High%20Protein/rx%20tag%205.png",
+            description: "High Protein",
           },
-          availability: {
-            nextCloseTime: "2025-11-24 23:59:00",
-            opened: true,
+          {
+            imageId: "newg.png",
+            description: "Gourmet",
           },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "High%20Protein/rx%20tag%205.png",
-                description: "High Protein",
+                attributes: {
+                  description: "High Protein",
+                  imageId: "High%20Protein/rx%20tag%205.png",
+                },
               },
               {
-                imageId: "newg.png",
-                description: "Gourmet",
+                attributes: {
+                  description: "Gourmet",
+                  imageId: "newg.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "High Protein",
-                      imageId: "High%20Protein/rx%20tag%205.png",
-                    },
-                  },
-                  {
-                    attributes: {
-                      description: "Gourmet",
-                      imageId: "newg.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "40% OFF",
-            subHeader: "UPTO ₹80",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          isNewlyOnboarded: true,
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/salad-days-post-office-sector-16-fbd-rest1219428",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "608600",
-          name: "Pizza Hut",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/961a4640-ad96-464d-99a5-13430add9f98_608594.JPG",
-          locality: "Sector 15A",
-          areaName: "Sector 15A",
-          costForTwo: "₹350 for two",
-          cuisines: ["Pizzas"],
-          avgRating: 4.3,
-          parentId: "721",
-          avgRatingString: "4.3",
-          totalRatingsString: "1.5K+",
-          sla: {
-            deliveryTime: 44,
-            lastMileTravel: 3,
-            serviceability: "SERVICEABLE",
-            slaString: "40-45 mins",
-            lastMileTravelString: "3.0 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2025-11-25 03:45:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "4.0",
-              ratingCount: "2.0K+",
-            },
-            source: "GOOGLE",
-            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/pizza-hut-sector-15a-rest608594",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "736180",
-          name: "Olio - The Wood Fired Pizzeria",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/24/90630573-6cc3-4161-a5f2-41ad6396db70_736173.JPG",
-          locality: "Neelam Bata Chowk",
-          areaName: "Sector 31",
-          costForTwo: "₹300 for two",
-          cuisines: [
-            "Pizzas",
-            "Pastas",
-            "Italian",
-            "Fast Food",
-            "Snacks",
-            "Beverages",
-            "Desserts",
-          ],
-          avgRating: 4.2,
-          parentId: "11633",
-          avgRatingString: "4.2",
-          totalRatingsString: "1.9K+",
-          sla: {
-            deliveryTime: 52,
-            lastMileTravel: 8.4,
-            serviceability: "SERVICEABLE",
-            slaString: "50-60 mins",
-            lastMileTravelString: "8.4 km",
-            iconType: "ICON_TYPE_EMPTY",
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/salad-days-post-office-sector-16-fbd-rest1219428",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "608600",
+      name: "Pizza Hut",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/961a4640-ad96-464d-99a5-13430add9f98_608594.JPG",
+      locality: "Sector 15A",
+      areaName: "Sector 15A",
+      costForTwo: "₹350 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 4.3,
+      parentId: "721",
+      avgRatingString: "4.3",
+      totalRatingsString: "1.5K+",
+      sla: {
+        deliveryTime: 44,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "40-45 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 03:45:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.0",
+          ratingCount: "2.0K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/pizza-hut-sector-15a-rest608594",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "736180",
+      name: "Olio - The Wood Fired Pizzeria",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/24/90630573-6cc3-4161-a5f2-41ad6396db70_736173.JPG",
+      locality: "Neelam Bata Chowk",
+      areaName: "Sector 31",
+      costForTwo: "₹300 for two",
+      cuisines: [
+        "Pizzas",
+        "Pastas",
+        "Italian",
+        "Fast Food",
+        "Snacks",
+        "Beverages",
+        "Desserts",
+      ],
+      avgRating: 4.2,
+      parentId: "11633",
+      avgRatingString: "4.2",
+      totalRatingsString: "1.9K+",
+      sla: {
+        deliveryTime: 52,
+        lastMileTravel: 8.4,
+        serviceability: "SERVICEABLE",
+        slaString: "50-60 mins",
+        lastMileTravelString: "8.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 05:30:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "newg.png",
+            description: "Gourmet",
           },
-          availability: {
-            nextCloseTime: "2025-11-25 05:30:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "newg.png",
-                description: "Gourmet",
+                attributes: {
+                  description: "Gourmet",
+                  imageId: "newg.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "Gourmet",
-                      imageId: "newg.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹119",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/olio-the-wood-fired-pizzeria-neelam-bata-chowk-sector-31-rest736173",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "764785678",
-          name: "Rama Bhojnalaya (Original since 1975)",
-          cloudinaryImageId: "nwmu8u0ngvsr8tkibjx8",
-          locality: "Sector 7",
-          areaName: "Sector 7",
-          costForTwo: "₹250 for two",
-          cuisines: ["North Indian", "Indian"],
-          avgRating: 4.2,
-          veg: true,
-          parentId: "15727",
-          avgRatingString: "4.2",
-          totalRatingsString: "10K+",
-          sla: {
-            deliveryTime: 33,
-            lastMileTravel: 6.3,
-            serviceability: "SERVICEABLE",
-            slaString: "30-35 mins",
-            lastMileTravelString: "6.3 km",
-            iconType: "ICON_TYPE_EMPTY",
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹119",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/olio-the-wood-fired-pizzeria-neelam-bata-chowk-sector-31-rest736173",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "764785678",
+      name: "Rama Bhojnalaya (Original since 1975)",
+      cloudinaryImageId: "nwmu8u0ngvsr8tkibjx8",
+      locality: "Sector 7",
+      areaName: "Sector 7",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Indian"],
+      avgRating: 4.2,
+      veg: true,
+      parentId: "15727",
+      avgRatingString: "4.2",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 33,
+        lastMileTravel: 6.3,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "6.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-24 23:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
           },
-          availability: {
-            nextCloseTime: "2025-11-24 23:00:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "v1695133679/badges/Pure_Veg111.png",
-                description: "pureveg",
+                attributes: {
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          aggregatedDiscountInfoV2: {},
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "pureveg",
-                      imageId: "v1695133679/badges/Pure_Veg111.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "3.9",
-              ratingCount: "1.5K+",
-            },
-            source: "GOOGLE",
-            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/rama-bhojnalaya-original-since-1975-sector-7-rest76444",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "48336789",
-          name: "ZAZA Mughal Biryani",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/7ecf81cb-2ef7-4ada-92d6-61ec8e6c8653_483339.jpg",
-          locality: "Kc Road",
-          areaName: "Badkal Lake",
-          costForTwo: "₹250 for two",
-          cuisines: ["Biryani", "North Indian", "Awadhi"],
-          avgRating: 4.5,
-          parentId: "22473",
-          avgRatingString: "4.5",
-          totalRatingsString: "717",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "3.9",
+          ratingCount: "1.5K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/rama-bhojnalaya-original-since-1975-sector-7-rest76444",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "48336789",
+      name: "ZAZA Mughal Biryani",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/7ecf81cb-2ef7-4ada-92d6-61ec8e6c8653_483339.jpg",
+      locality: "Kc Road",
+      areaName: "Badkal Lake",
+      costForTwo: "₹250 for two",
+      cuisines: ["Biryani", "North Indian", "Awadhi"],
+      avgRating: 4.5,
+      parentId: "22473",
+      avgRatingString: "4.5",
+      totalRatingsString: "717",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Biryani.png",
+            description: "Delivery!",
           },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "Rxawards/_CATEGORY-Biryani.png",
-                description: "Delivery!",
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Biryani.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "Delivery!",
-                      imageId: "Rxawards/_CATEGORY-Biryani.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/zaza-mughal-biryani-kc-road-badkal-lake-rest483339",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "681467",
-          name: "LeanCrust Pizza- ThinCrust Experts",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/d97ea843-7c81-4362-a9a9-d55a7054c09c_681599.jpg",
-          locality: "K C Road",
-          areaName: "New Industrial Township",
-          costForTwo: "₹300 for two",
-          cuisines: ["Pizzas", "Italian", "Desserts"],
-          avgRating: 4.7,
-          parentId: "11216",
-          avgRatingString: "4.7",
-          totalRatingsString: "803",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/leancrust-pizza-thincrust-experts-k-c-road-new-industrial-township-rest681599",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "1151345",
-          name: "Zulu's Pizza - Fresh Fanatics",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/21/65c93065-98a7-4c77-8141-a7fc3f8e063d_1151985.JPG",
-          locality: "KC Road",
-          areaName: "Badkal Lake",
-          costForTwo: "₹200 for two",
-          cuisines: ["Pizzas", "Italian", "Fast Food", "Desserts", "Beverages"],
-          avgRating: 4.6,
-          parentId: "661655",
-          avgRatingString: "4.6",
-          totalRatingsString: "17",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹99",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          isNewlyOnboarded: true,
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/zulus-pizza-fresh-fanatics-kc-road-badkal-lake-rest1151985",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "6435679",
-          name: "WeFit - Protein Bowls, Salads & Sandwiches",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/3/ade3c596-ac60-46ce-8c9f-a0cd3fa4e402_643819.jpg",
-          locality: "K C Road",
-          areaName: "NIT_FBD",
-          costForTwo: "₹250 for two",
-          cuisines: ["Healthy Food", "Salads", "Keto", "Snacks"],
-          avgRating: 4.7,
-          parentId: "355285",
-          avgRatingString: "4.7",
-          totalRatingsString: "866",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 4.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "4.5 km",
-            iconType: "ICON_TYPE_EMPTY",
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/zaza-mughal-biryani-kc-road-badkal-lake-rest483339",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "681467",
+      name: "LeanCrust Pizza- ThinCrust Experts",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/d97ea843-7c81-4362-a9a9-d55a7054c09c_681599.jpg",
+      locality: "K C Road",
+      areaName: "New Industrial Township",
+      costForTwo: "₹300 for two",
+      cuisines: ["Pizzas", "Italian", "Desserts"],
+      avgRating: 4.7,
+      parentId: "11216",
+      avgRatingString: "4.7",
+      totalRatingsString: "803",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/leancrust-pizza-thincrust-experts-k-c-road-new-industrial-township-rest681599",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "1151345",
+      name: "Zulu's Pizza - Fresh Fanatics",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/21/65c93065-98a7-4c77-8141-a7fc3f8e063d_1151985.JPG",
+      locality: "KC Road",
+      areaName: "Badkal Lake",
+      costForTwo: "₹200 for two",
+      cuisines: ["Pizzas", "Italian", "Fast Food", "Desserts", "Beverages"],
+      avgRating: 4.6,
+      parentId: "661655",
+      avgRatingString: "4.6",
+      totalRatingsString: "17",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/zulus-pizza-fresh-fanatics-kc-road-badkal-lake-rest1151985",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "6435679",
+      name: "WeFit - Protein Bowls, Salads & Sandwiches",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/3/ade3c596-ac60-46ce-8c9f-a0cd3fa4e402_643819.jpg",
+      locality: "K C Road",
+      areaName: "NIT_FBD",
+      costForTwo: "₹250 for two",
+      cuisines: ["Healthy Food", "Salads", "Keto", "Snacks"],
+      avgRating: 4.7,
+      parentId: "355285",
+      avgRatingString: "4.7",
+      totalRatingsString: "866",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 4.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-30 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-25 02:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "High%20Protein/rx%20tag%205.png",
+            description: "High Protein",
           },
-          availability: {
-            nextCloseTime: "2025-11-25 02:00:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "High%20Protein/rx%20tag%205.png",
-                description: "High Protein",
+                attributes: {
+                  description: "High Protein",
+                  imageId: "High%20Protein/rx%20tag%205.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "High Protein",
-                      imageId: "High%20Protein/rx%20tag%205.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹149",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/wefit-protein-bowls-salads-and-sandwiches-k-c-road-nit-fbd-rest643819",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
-      {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "121990244",
-          name: "Salad Days",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/8/d39cf270-961f-4f3a-bb8f-dfca91db02ce_1219428.jpg",
-          locality: "Post Office",
-          areaName: "Sector 16_FBD",
-          costForTwo: "₹500 for two",
-          cuisines: ["Salads"],
-          avgRating: 4.7,
-          parentId: "796",
-          avgRatingString: "4.7",
-          totalRatingsString: "71",
-          sla: {
-            deliveryTime: 34,
-            lastMileTravel: 4.2,
-            serviceability: "SERVICEABLE",
-            slaString: "30-35 mins",
-            lastMileTravelString: "4.2 km",
-            iconType: "ICON_TYPE_EMPTY",
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹149",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/wefit-protein-bowls-salads-and-sandwiches-k-c-road-nit-fbd-rest643819",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "121990244",
+      name: "Salad Days",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/8/d39cf270-961f-4f3a-bb8f-dfca91db02ce_1219428.jpg",
+      locality: "Post Office",
+      areaName: "Sector 16_FBD",
+      costForTwo: "₹500 for two",
+      cuisines: ["Salads"],
+      avgRating: 4.7,
+      parentId: "796",
+      avgRatingString: "4.7",
+      totalRatingsString: "71",
+      sla: {
+        deliveryTime: 34,
+        lastMileTravel: 4.2,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "4.2 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-11-24 23:59:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "High%20Protein/rx%20tag%205.png",
+            description: "High Protein",
           },
-          availability: {
-            nextCloseTime: "2025-11-24 23:59:00",
-            opened: true,
+          {
+            imageId: "newg.png",
+            description: "Gourmet",
           },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "High%20Protein/rx%20tag%205.png",
-                description: "High Protein",
+                attributes: {
+                  description: "High Protein",
+                  imageId: "High%20Protein/rx%20tag%205.png",
+                },
               },
               {
-                imageId: "newg.png",
-                description: "Gourmet",
+                attributes: {
+                  description: "Gourmet",
+                  imageId: "newg.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "High Protein",
-                      imageId: "High%20Protein/rx%20tag%205.png",
-                    },
-                  },
-                  {
-                    attributes: {
-                      description: "Gourmet",
-                      imageId: "newg.png",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "40% OFF",
-            subHeader: "UPTO ₹80",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          isNewlyOnboarded: true,
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {
-          context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
-        },
-        cta: {
-          link: "https://www.swiggy.com/city/faridabad/salad-days-post-office-sector-16-fbd-rest1219428",
-          text: "RESTAURANT_MENU",
-          type: "WEBLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
       },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-ebb7650b-0214-4448-b37f-fc9d539c693b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/faridabad/salad-days-post-office-sector-16-fbd-rest1219428",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
 ];
 
 export const menuData = {

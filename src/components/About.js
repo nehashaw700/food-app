@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import UserClass from "./UserClass";
 import Dummy from "./Dummy";
+import UserContext from "../utils/UserContext";
 
 const About = () => {
     const [user, setUser] = useState({name: "neha"});
@@ -22,6 +23,9 @@ const About = () => {
             {console.log("about rendered")}
             <h1> About </h1>
             <h2> this is about section</h2>
+            <UserContext.Consumer>
+                {({loggedInUser}) => <h1>{loggedInUser}</h1>}
+            </UserContext.Consumer>
             <UserClass index = {"1"} />
             <UserClass index = {"2"}/>
             <Dummy f={fn}/>

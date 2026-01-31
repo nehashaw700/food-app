@@ -1,8 +1,9 @@
 import RestaurantCard from "./RestaurantCard";
 import restaurantListData from "../utils/mockData";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   // useState is a react hook or state variable which has the power of keeping the data layer in sync with the ui layer
@@ -42,9 +43,20 @@ const Body = () => {
     )
   }
 
+  const {loggedInUser, setUserName} = useContext(UserContext);
+
   return (
     <div className="body">
-      <div className="search">search</div>
+       <div className="search">
+        <input className="search-input" 
+        placeholder="Enter a restaurant"></input>
+      </div>
+
+      {/* <div>
+        <input value = {loggedInUser} onChange={(e) => setUserName(e.target.value)}>
+        </input>
+      </div> */}
+
       <div className="res-container">
         {/* Restaurant -> Img, res name, star rating, delivery time */}
 

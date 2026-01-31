@@ -300,7 +300,7 @@ JavaScript Coding (MOST ASKED)
 5️⃣ Remove duplicates from an array (without using Set) - D
 6️⃣ Deep clone an object - D
 7️⃣ Find the first non-repeating character in a string - D
-8️⃣ Implement memoization 
+8️⃣ Implement memoization - D
 9️⃣ Convert callback-based function to Promise
 
  Currying for Infinite Sum
@@ -314,11 +314,11 @@ JavaScript Coding (MOST ASKED)
 • Build a Todo app with add/edit/delete
 • Implement controlled vs uncontrolled input
 • Implement lazy loading manually
+• Responsive sidebar navigation bar
+• Create sorting & pagination from scratch
 
 • Local Strorage, Session Storage, JWT TOken and Authorization - Thurs & Fri
-• Create sorting & pagination from scratch - Wed
-• Responsive sidebar navigation bar - Sat
-• Accordion - Sun
+• Accordion 
 
 • Render a dynamic form from JSON
 • Event delegation implementation
@@ -328,7 +328,9 @@ JavaScript Coding (MOST ASKED)
 
 
 1 dsa + 1 react practical
-next week - context api + redux
+next week - context api + redux + next (15 days)
+react rem ques
+js revision
 
 
 

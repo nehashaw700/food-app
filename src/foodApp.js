@@ -1,4 +1,4 @@
-import react, {lazy, Suspense} from "../node_modules/react";
+import react, { lazy, Suspense } from "../node_modules/react";
 import ReactDOM from "../node_modules/react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -11,18 +11,34 @@ import {
   createBrowserRouter,
   RouterProvider, Outlet
 } from "react-router-dom";
-import { lazy } from "react";
- 
+import { lazy, useEffect, useState } from "react";
+import UserContext from "./utils/UserContext.js";
+import { Provider } from "react-redux";
+import appStore from "./utils/redux/appStore.js";
+
 // called dynamic import
 const About = lazy(() => import("./components/About.js"));
 
 const AppLayout = () => {
+  const [userName, setUserName] = useState("Default");
+
+  useEffect(() => {
+    // this can come from some API
+    const name = "Saloni";
+    setUserName(name);
+  }, []);
+
   return (
     <div className="app">
-      <Header />
-      <Outlet />
+      <Provider store={appStore}>
+      <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+        <Header />
+        <Outlet />
+      </UserContext.Provider>
+      </Provider>
     </div>
   );
+
 };
 
 const appRouter = createBrowserRouter([
@@ -38,7 +54,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <Suspense fallback = {<h1>Loading!!!</h1>}> <About /> </Suspense>,
+        element: <Suspense fallback={<h1>Loading!!!</h1>}> <About /> </Suspense>,
       },
       {
         // this is dynamic routes

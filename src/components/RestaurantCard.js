@@ -13,14 +13,14 @@ const RestaurantCard = (props) => {
         }
       ></img>
 
-      <h4 id = "resName"> {resName.length > 20 ? resName.slice(0, 20) + "...": resName}</h4>
+      <div className = "resName"> {resName.length > 25 ? resName.slice(0, 25) + "...": resName}</div>
 
       <div className="ratingTime">
-      <div> <b> {rating} </b> </div>
-      <div> <b>{time + ' - ' + (time+ 10) + " mins"}</b> </div>
+      <div> {rating} </div>
+      <div> {time + ' - ' + (time + 10) + " mins"} </div>
       </div>
       
-      <div className="cusines"> {cusines.length > 20 ? cusines.slice(0, 20) + "...": cusines} </div>
+      <div className="res-cuisine"> {cusines.length > 20 ? cusines.slice(0, 20) + "...": cusines} </div>
       
     </div>
   );
