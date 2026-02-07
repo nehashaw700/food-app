@@ -5,6 +5,7 @@ import Body from "./components/Body";
 // import About from "./components/About.js";
 import Error from "./components/Error.js";
 import Menu from "./components/Menu.js";
+import Cart from "./components/Cart.js";
 import ProtectedRoute from "./components/ProtectedRoute.js";
 
 import {
@@ -55,6 +56,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/about",
         element: <Suspense fallback={<h1>Loading!!!</h1>}> <About /> </Suspense>,
+      },
+      {
+        path: "/cart",
+        element: <ProtectedRoute> <Cart /> </ProtectedRoute>,
       },
       {
         // this is dynamic routes

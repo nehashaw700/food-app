@@ -1,18 +1,23 @@
+import { useDispatch } from "react-redux";
 import { VegIcon, NonVegIcon } from "./VegNonVegIcon";
+import { addItem } from "../utils/redux/cartSlice";
 
 const ItemCard = ({ itemInfo }) => {
+    const dispatch = useDispatch();
+
+    const handleAddItems = () =>{
+       dispatch(addItem(itemInfo));
+    }
+
     return (
         <div className="item-card">
             <div className="item-info">
                 {itemInfo.itemAttribute.vegClassifier === 'NONVEG' ? <NonVegIcon /> : <VegIcon />}
-
                 <div className="item-name">{itemInfo.name}</div>
 
                 <div className="item-details">
                     <div className="item-price">${itemInfo.price ? itemInfo.price / 100 : itemInfo.defaultPrice / 100}</div>
-
                     <div className="item-rating ">  ⭐ {itemInfo?.ratings?.aggregatedRating?.rating}</div>
-
                     <div className="item-desc "> {itemInfo?.description}</div>
                 </div>
             </div>
@@ -25,7 +30,7 @@ const ItemCard = ({ itemInfo }) => {
                 ></img>
 
                 <div className="add-button">
-                <button >
+                <button onClick={() => handleAddItems(itemInfo)} >
                     ADD+
                 </button>
                 </div>

@@ -271,4 +271,12 @@ a:active {
     font-weight: 700;
 }
 
+/* Cart */
+.clear-cart{
+    margin: 10px 2px 0 90vw;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    align-self: flex-end;
+}
 
