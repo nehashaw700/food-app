@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel index_react.html",
-    "build": "parcel build index_react.html --dist-dir dist",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir dist",
     "test": "jest"
   },
   "repository": {

@@ -3,28 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css" />
-    <title>PROFOOD</title>
+    <title>FoodHub</title>
 </head>
 
 <body>
-    <!-- <h1>Top</h1> -->
-    <div id="root">
-        <!-- this code will be replaced by root.render() -->
-        <h1> Neha is here</h1> 
-    </div>
-    <!-- <h1>Bottom</h1> -->
+    <div id="root"> 
+        <!-- <h1> HELLO WORLD</h1> -->
+        <script>
+            const heading = document.createElement("h1");
+            heading.innerHTML = "HELLO JS !";
 
-        <!-- react should be imported before importing app.js. Order matters -->
-        <!-- CDN is a place where react is hoisted. -->
-        <!-- core react thing -->
-       <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
-
-       bridge between react and browsers 
-        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
-
-        <!-- without this type as module, app.js is treated as a normal js file which does not understands import and hence wont be able to import React -->
-        <script type = "module" src = "./src/foodApp.js">
+            const rootElement = document.getElementById("root");
+            rootElement.appendChild(heading);
         </script>
+    </div>
 </body>
 </html>
