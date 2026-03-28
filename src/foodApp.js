@@ -15,7 +15,7 @@ import {
 } from "react-router-dom";
 import UserContext from "./utils/UserContext.js";
 import { Provider } from "react-redux";
-import appStore from "./utils/redux/appStore.js";
+import appStore from "./store/appStore.js";
 
 // called dynamic import
 const About = lazy(() => import("./components/About.js"));

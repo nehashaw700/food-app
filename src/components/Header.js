@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import UserContext from "../utils/UserContext";
 import { useContext } from "react";
 import { useSelector } from "react-redux";
-import useOnlineStatus from "../utils/useOnlineStatus";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 
 const Header = () => {
   const {loggedInUser} = useContext(UserContext);

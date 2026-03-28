@@ -1,25 +1,15 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import restaurantListData, { menuData } from "../mockData";
-
-const getMenuCategories = () => {
-  return (
-    menuData?.data?.cards?.[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.filter(
-      (card) =>
-        card?.card?.card?.["@type"] ===
-        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
-    ) || []
-  );
-};
-
-const getRestaurantById = (resId) => {
-  return restaurantListData.find((restaurant) => restaurant?.info?.id === resId) || null;
-};
+import {
+  getMenuCategories,
+  getRestaurantById,
+  getRestaurantList,
+} from "../../services/restaurantService";
 
 export const fetchRestaurants = createAsyncThunk(
   "restaurant/fetchRestaurants",
   async (_, { rejectWithValue }) => {
     try {
-      return restaurantListData;
+      return await getRestaurantList();
     } catch (error) {
       return rejectWithValue("Unable to load restaurants right now.");
     }

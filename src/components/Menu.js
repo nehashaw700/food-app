@@ -1,8 +1,8 @@
 import { useState, useCallback } from "react";
 import { useParams } from "react-router";
-import useRestaurantMenu from "../utils/useRestaurantMenu";
+import useRestaurantMenu from "../hooks/useRestaurantMenu";
 import RestaurantCategory from "./RestaurantCategory";
-import useOnlineStatus from "../utils/useOnlineStatus";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 import { MenuSkeleton } from "./LoadingSkeleton";
 import EmptyState from "./EmptyState";
 

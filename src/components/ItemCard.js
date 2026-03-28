@@ -1,7 +1,7 @@
 import { memo, useCallback } from "react";
 import { useDispatch } from "react-redux";
 import { VegIcon, NonVegIcon } from "./VegNonVegIcon";
-import { addItem } from "../utils/redux/cartSlice";
+import { addItem } from "../features/cart/cartSlice";
 
 const ItemCard = ({ itemInfo }) => {
     const dispatch = useDispatch();

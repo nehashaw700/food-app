@@ -1,9 +1,9 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect, useMemo, useCallback, useContext, memo } from "react";
 import { Link } from "react-router-dom";
-import useOnlineStatus from "../utils/useOnlineStatus";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchRestaurants } from "../utils/redux/restaurantSlice";
+import { fetchRestaurants } from "../features/restaurant/restaurantSlice";
 import { FixedSizeGrid as VirtualizedGrid } from "react-window";
 import { RestaurantGridSkeleton } from "./LoadingSkeleton";
 import UserContext from "../utils/UserContext";
