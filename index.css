@@ -89,12 +89,18 @@ a:active {
 
 /* RESTAURANT CONTAINER */
 .res-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
-    gap: 50px;
     padding: 30px;
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.res-grid-shell {
+    display: flex;
+    justify-content: center;
+}
+
+.res-grid {
+    overflow-x: hidden !important;
 }
 
 /* RESTAURANT CARD */
@@ -108,7 +114,7 @@ a:active {
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .res-card:hover {
@@ -196,8 +202,6 @@ a:active {
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .res-container {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 15px;
         padding: 15px;
     }
 

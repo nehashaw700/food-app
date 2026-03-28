@@ -1,3 +1,4 @@
+import { memo, useCallback } from "react";
 import { useDispatch } from "react-redux";
 import { VegIcon, NonVegIcon } from "./VegNonVegIcon";
 import { addItem } from "../utils/redux/cartSlice";
@@ -5,9 +6,9 @@ import { addItem } from "../utils/redux/cartSlice";
 const ItemCard = ({ itemInfo }) => {
     const dispatch = useDispatch();
 
-    const handleAddItems = () =>{
+    const handleAddItems = useCallback(() =>{
        dispatch(addItem(itemInfo));
-    }
+    }, [dispatch, itemInfo]);
 
     return (
         <div className="item-card">
@@ -30,7 +31,7 @@ const ItemCard = ({ itemInfo }) => {
                 ></img>
 
                 <div className="add-button">
-                <button onClick={() => handleAddItems(itemInfo)} >
+                <button onClick={handleAddItems} >
                     ADD+
                 </button>
                 </div>
@@ -40,4 +41,4 @@ const ItemCard = ({ itemInfo }) => {
 
 }
 
-export default ItemCard;
+export default memo(ItemCard);

@@ -1,25 +1,17 @@
-import { useState } from "react";
+import { memo } from "react";
 import ItemCard from "./ItemCard";
 
-const RestaurantCategory = ({data, showResItems, setShowIndex}) => {
-
-    const [toggleResItems, setToggleResItems] = useState(false);
-
-    const onCategoryClick = () => {
-        setShowIndex();
-        setToggleResItems(!toggleResItems);
-    }
+const RestaurantCategory = ({data, showResItems, onToggle}) => {
 
     return (
-        <div className="res-category" onClick={onCategoryClick}>
+        <div className="res-category" onClick={onToggle}>
             <div className="res-category-title" >
                 <span> <b>{data?.title} ({data?.itemCards.length}) </b></span>
                 <span> {"-->"} </span>
             </div>
 
             {console.log("item cards: ", data?.itemCards)}
-
-            {showResItems && toggleResItems && <div className="res-category-items" >
+            {showResItems && <div className="res-category-items" >
                 <ul>
                     {data?.itemCards.map((itemCard) => {
                         return (
@@ -35,4 +27,4 @@ const RestaurantCategory = ({data, showResItems, setShowIndex}) => {
     )
 }
 
-export default RestaurantCategory;
+export default memo(RestaurantCategory);

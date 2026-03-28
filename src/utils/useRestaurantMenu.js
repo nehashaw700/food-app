@@ -1,22 +1,23 @@
-import { useState, useEffect } from "react";
-import restaurantListData from "./mockData";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchRestaurantMenu } from "./redux/restaurantSlice";
 
 const useRestaurantMenu = (resId) => {
-    const [resInfo, setResInfo] = useState([]);
-    
+    const dispatch = useDispatch();
+    const menuState = useSelector((store) => store.restaurant.menuById[resId]);
+
     useEffect(() => {
-        fetchMenu();
-    }, []);
+        if (resId) {
+            dispatch(fetchRestaurantMenu(resId));
+        }
+    }, [dispatch, resId]);
 
-    const fetchMenu = async () => {
-        const resInfo = await restaurantListData.filter((el) => {
-            return el?.info.id === resId;
-        })
-
-        await setResInfo(resInfo);
-    }
-    
-    return resInfo;
+    return {
+        restaurant: menuState?.restaurant || null,
+        categories: menuState?.categories || [],
+        status: menuState?.status || "idle",
+        error: menuState?.error || null,
+    };
 }
 
 export default useRestaurantMenu;

@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const RestaurantCard = (props) => {
   // this is called destructuring
   const { resName, cusines, time, rating, image } = props;
@@ -26,4 +28,4 @@ const RestaurantCard = (props) => {
   );
 };
 
-export default RestaurantCard;
+export default memo(RestaurantCard);

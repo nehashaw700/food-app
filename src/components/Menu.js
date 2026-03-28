@@ -1,28 +1,34 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { useParams } from "react-router";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
-import { menuData } from "../utils/mockData";
 import RestaurantCategory from "./RestaurantCategory";
 
 const Menu = () => {
 
     const {resId} = useParams();
-    const resInfo = useRestaurantMenu(resId); // calling a custom hook
+    const { restaurant, categories, status, error } = useRestaurantMenu(resId); // calling a custom hook
 
     const [showIndex, setShowIndex] = useState(null);
+    const handleCategoryToggle = useCallback((index) => {
+        setShowIndex((prevIndex) => (prevIndex === index ? null : index));
+    }, []);
 
-    const categories = menuData?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter((c) => {
-        return c?.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
-    });
+    if (status === "loading") {
+        return <div className="menu"><h2>Loading menu...</h2></div>;
+    }
+
+    if (status === "failed") {
+        return <div className="menu"><h2>{error}</h2></div>;
+    }
 
     return (
         <div className="menu">
-            <h3 className = "menu-heading">{resInfo[0]?.info?.name}</h3>
+            <h3 className = "menu-heading">{restaurant?.info?.name}</h3>
 
            {/* <ul>
-            {resInfo[0]?.info?.cuisines?.map((cuisine, index) => {
+            {restaurant?.info?.cuisines?.map((cuisine, index) => {
                 return (
-                    <li key={resInfo[0]?.info?.id + index}>{cuisine}</li>
+                    <li key={restaurant?.info?.id + index}>{cuisine}</li>
                 )
             })}
            </ul> */}
@@ -32,9 +38,7 @@ const Menu = () => {
                     <RestaurantCategory key = {category?.card?.card?.title} 
                     data={category?.card?.card} 
                     showResItems = {(index === showIndex)} 
-                    setShowIndex = {() => {
-                       return setShowIndex(index);
-                    }}
+                    onToggle = {() => handleCategoryToggle(index)}
                     />
                 )
             })}
