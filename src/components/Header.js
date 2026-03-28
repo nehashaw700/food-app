@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 import UserContext from "../utils/UserContext";
 import { useContext } from "react";
 import { useSelector } from "react-redux";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Header = () => {
   const {loggedInUser} = useContext(UserContext);
+  const onlineStatus = useOnlineStatus();
 
   // Subscribing to the store using Selector
   const cartItems = useSelector((store) => store.cart.items);
@@ -25,6 +27,9 @@ const Header = () => {
           <li> <Link to = "/about"> About Us</Link></li>
           <li>Contact Us</li>
           <li> <Link to="/cart"> Cart({cartItems.length}) </Link> </li>
+          <li className={onlineStatus ? "network-badge online" : "network-badge offline"}>
+            {onlineStatus ? "Online" : "Offline"}
+          </li>
           <li>{loggedInUser}</li>
         </ul>
       </div>

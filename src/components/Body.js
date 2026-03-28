@@ -1,11 +1,13 @@
 import RestaurantCard from "./RestaurantCard";
-import { useState, useEffect, useContext, useMemo, useCallback, memo } from "react";
+import { useState, useEffect, useMemo, useCallback, useContext, memo } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import UserContext from "../utils/UserContext";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchRestaurants } from "../utils/redux/restaurantSlice";
 import { FixedSizeGrid as VirtualizedGrid } from "react-window";
+import { RestaurantGridSkeleton } from "./LoadingSkeleton";
+import UserContext from "../utils/UserContext";
+import EmptyState from "./EmptyState";
 
 const GRID_GAP = 30;
 const DESKTOP_MAX_WIDTH = 1400;
@@ -90,20 +92,24 @@ const Body = () => {
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false) {
     return (
-      <div>
-        <h1>You are Offline!</h1>
-        <h2>Please check your internet Connection!!!</h2>
-      </div>
+      <EmptyState
+        title="You are offline right now"
+        description="Reconnect to the internet to browse nearby restaurants and live menu details."
+      />
     )
   }
 
-  const { loggedInUser, setUserName } = useContext(UserContext);
+   const { loggedInUser, setUserName } = useContext(UserContext);
+
   const handleSearchChange = useCallback((e) => {
     setSearchText(e.target.value);
   }, []);
   const handleRetryRestaurants = useCallback(() => {
     dispatch(fetchRestaurants());
   }, [dispatch]);
+  const handleClearSearch = useCallback(() => {
+    setSearchText("");
+  }, []);
 
   const filteredRestaurants = useMemo(() => {
     const normalizedSearchText = searchText.trim().toLowerCase();
@@ -170,7 +176,7 @@ const Body = () => {
 
       <div className="res-container">
         {/* Restaurant -> Img, res name, star rating, delivery time */}
-        {status === "loading" && <h2>Loading restaurants...</h2>}
+        {status === "loading" && <RestaurantGridSkeleton />}
         {status === "failed" && (
           <div className="inline-feedback error-feedback" role="alert">
             <h2>We could not load restaurants.</h2>
@@ -181,7 +187,7 @@ const Body = () => {
           </div>
         )}
 
-        {status === "succeeded" && (
+        {status === "succeeded" && filteredRestaurants.length > 0 && (
           <div className="res-grid-shell">
             <VirtualizedGrid
               className="res-grid"
@@ -195,6 +201,20 @@ const Body = () => {
             >
               {RestaurantGridCell}
             </VirtualizedGrid>
+          </div>
+        )}
+
+        {status === "succeeded" && filteredRestaurants.length === 0 && (
+          <div className="empty-state" role="status">
+            <div className="empty-state-icon">🔎</div>
+            <h2>No restaurants matched your search</h2>
+            <p>
+              We could not find anything for "{searchText}". Try a shorter or
+              different restaurant name.
+            </p>
+            <button className="primary-action" onClick={handleClearSearch}>
+              Clear search
+            </button>
           </div>
         )}
       </div>

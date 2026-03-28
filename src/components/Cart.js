@@ -1,6 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import { clearCart } from "../utils/redux/cartSlice";
 import ItemCard from "./ItemCard";
+import EmptyState from "./EmptyState";
 
 const Cart = () => {
     const cartItems = useSelector((store) => store.cart.items);
@@ -11,27 +13,37 @@ const Cart = () => {
     }
 
     return (
-        <div>
-            <button className="clear-cart"
-                onClick={handleClearCart}>
-                Clear Cart
-            </button>
+        <div className="cart-page">
+            {cartItems.length > 0 && (
+                <button className="clear-cart"
+                    onClick={handleClearCart}>
+                    Clear Cart
+                </button>
+            )}
 
             {cartItems.length === 0 &&
-                <div>
-                    <h1>Your cart is empty!</h1>
-                    <h2>Please add Items!!!</h2>
+                <EmptyState
+                    title="Your cart is feeling light"
+                    description="Add a few dishes to place an order and see them listed here."
+                    actionLabel="Browse restaurants"
+                    actionTo="/"
+                />
+            }
+
+            {cartItems.length > 0 && (
+                <div className="cart-list">
+                    {cartItems.map((item, index) => {
+                        return (
+                            <li key={item.id + "" + index} >
+                                <ItemCard itemInfo={item} />
+                            </li>
+                        )
+                    })}
+                    <Link className="primary-action action-link cart-cta" to="/">
+                        Add more items
+                    </Link>
                 </div>
-            }
-            
-            {cartItems.map((item, index) => {
-                return (
-                    <li key={item.id + "" + index} >
-                        <ItemCard itemInfo={item} />
-                    </li>
-                )
-            })
-            }
+            )}
         </div>
     )
 }
