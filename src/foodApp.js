@@ -1,18 +1,18 @@
-import react, { lazy, Suspense } from "../node_modules/react";
-import ReactDOM from "../node_modules/react-dom/client";
+import React, { Suspense, lazy, useEffect, useState } from "react";
+import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
-// import About from "./components/About.js";
 import Error from "./components/Error.js";
 import Menu from "./components/Menu.js";
 import Cart from "./components/Cart.js";
 import ProtectedRoute from "./components/ProtectedRoute.js";
+import ErrorBoundary from "./components/ErrorBoundary.js";
 
 import {
   createBrowserRouter,
-  RouterProvider, Outlet
+  Outlet,
+  RouterProvider,
 } from "react-router-dom";
-import { lazy, useEffect, useState } from "react";
 import UserContext from "./utils/UserContext.js";
 import { Provider } from "react-redux";
 import appStore from "./utils/redux/appStore.js";
@@ -74,4 +74,10 @@ const appRouter = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // instead of this, using Router provider and providing config appRouter
 // root.render(<AppLayout />);
-root.render(<RouterProvider router={appRouter} />);
+root.render(
+  <React.StrictMode>
+    <ErrorBoundary>
+      <RouterProvider router={appRouter} />
+    </ErrorBoundary>
+  </React.StrictMode>
+);

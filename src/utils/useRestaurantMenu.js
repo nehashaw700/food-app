@@ -12,11 +12,18 @@ const useRestaurantMenu = (resId) => {
         }
     }, [dispatch, resId]);
 
+    const refetchMenu = () => {
+        if (resId) {
+            dispatch(fetchRestaurantMenu(resId));
+        }
+    };
+
     return {
         restaurant: menuState?.restaurant || null,
         categories: menuState?.categories || [],
         status: menuState?.status || "idle",
         error: menuState?.error || null,
+        refetchMenu,
     };
 }
 

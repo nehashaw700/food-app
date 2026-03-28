@@ -101,6 +101,9 @@ const Body = () => {
   const handleSearchChange = useCallback((e) => {
     setSearchText(e.target.value);
   }, []);
+  const handleRetryRestaurants = useCallback(() => {
+    dispatch(fetchRestaurants());
+  }, [dispatch]);
 
   const filteredRestaurants = useMemo(() => {
     const normalizedSearchText = searchText.trim().toLowerCase();
@@ -168,7 +171,15 @@ const Body = () => {
       <div className="res-container">
         {/* Restaurant -> Img, res name, star rating, delivery time */}
         {status === "loading" && <h2>Loading restaurants...</h2>}
-        {status === "failed" && <h2>{error}</h2>}
+        {status === "failed" && (
+          <div className="inline-feedback error-feedback" role="alert">
+            <h2>We could not load restaurants.</h2>
+            <p>{error || "Please try again in a moment."}</p>
+            <button className="primary-action" onClick={handleRetryRestaurants}>
+              Retry
+            </button>
+          </div>
+        )}
 
         {status === "succeeded" && (
           <div className="res-grid-shell">

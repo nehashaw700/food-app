@@ -6,7 +6,7 @@ import RestaurantCategory from "./RestaurantCategory";
 const Menu = () => {
 
     const {resId} = useParams();
-    const { restaurant, categories, status, error } = useRestaurantMenu(resId); // calling a custom hook
+    const { restaurant, categories, status, error, refetchMenu } = useRestaurantMenu(resId); // calling a custom hook
 
     const [showIndex, setShowIndex] = useState(null);
     const handleCategoryToggle = useCallback((index) => {
@@ -18,7 +18,15 @@ const Menu = () => {
     }
 
     if (status === "failed") {
-        return <div className="menu"><h2>{error}</h2></div>;
+        return (
+            <div className="menu">
+                <div className="inline-feedback error-feedback" role="alert">
+                    <h2>We could not load this menu.</h2>
+                    <p>{error || "Please refresh this restaurant and try again."}</p>
+                    <button className="primary-action" onClick={refetchMenu}>Retry</button>
+                </div>
+            </div>
+        );
     }
 
     return (
