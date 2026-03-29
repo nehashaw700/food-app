@@ -1,19 +1,19 @@
 import { memo } from "react";
 import ItemCard from "./ItemCard";
 
-const RestaurantCategory = ({data, showResItems, onToggle}) => {
+const RestaurantCategory = ({ data, showResItems, onToggle }) => {
+    const itemCards = data?.itemCards || [];
 
     return (
         <div className="res-category" onClick={onToggle}>
             <div className="res-category-title" >
-                <span> <b>{data?.title} ({data?.itemCards.length}) </b></span>
+                <span> <b>{data?.title} ({itemCards.length}) </b></span>
                 <span> {"-->"} </span>
             </div>
 
-            {console.log("item cards: ", data?.itemCards)}
             {showResItems && <div className="res-category-items" >
                 <ul>
-                    {data?.itemCards.map((itemCard) => {
+                    {itemCards.map((itemCard) => {
                         return (
                             <li key = {itemCard?.card?.info?.id} >   
                             <ItemCard itemInfo={itemCard?.card?.info} />

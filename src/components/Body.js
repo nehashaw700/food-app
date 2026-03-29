@@ -44,7 +44,7 @@ const RestaurantGridCell = memo(({ columnIndex, rowIndex, style, data }) => {
       <Link key={res.info.id} to={"/restaurants/" + res.info.id}>
         <RestaurantCard
           resName={res?.info.name}
-          cusines={res?.info.cuisines.join(", ")}
+          cuisines={res?.info.cuisines.join(", ")}
           time={res?.info.sla.deliveryTime}
           rating={res?.info.avgRating}
           image={res?.info.cloudinaryImageId}

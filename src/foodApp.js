@@ -32,14 +32,13 @@ const AppLayout = () => {
   return (
     <div className="app">
       <Provider store={appStore}>
-      <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
-        <Header />
-        <Outlet />
-      </UserContext.Provider>
+        <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+          <Header />
+          <Outlet />
+        </UserContext.Provider>
       </Provider>
     </div>
   );
-
 };
 
 const appRouter = createBrowserRouter([
@@ -51,15 +50,15 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <ProtectedRoute> <Body /> </ProtectedRoute>,
+        element: <ProtectedRoute><Body /></ProtectedRoute>,
       },
       {
         path: "/about",
-        element: <Suspense fallback={<h1>Loading!!!</h1>}> <About /> </Suspense>,
+        element: <Suspense fallback={<h1>Loading...</h1>}><About /></Suspense>,
       },
       {
         path: "/cart",
-        element: <ProtectedRoute> <Cart /> </ProtectedRoute>,
+        element: <ProtectedRoute><Cart /></ProtectedRoute>,
       },
       {
         // this is dynamic routes
@@ -67,7 +66,6 @@ const appRouter = createBrowserRouter([
         element: <Menu />,
       },
     ],
-
   },
 ]);
 

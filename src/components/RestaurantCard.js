@@ -2,7 +2,9 @@ import { memo } from "react";
 
 const RestaurantCard = (props) => {
   // this is called destructuring
-  const { resName, cusines, time, rating, image } = props;
+  const { resName, cuisines, time, rating, image } = props;
+  const formattedCuisineText =
+    cuisines.length > 20 ? cuisines.slice(0, 20) + "..." : cuisines;
 
   return (
     <div className="res-card">
@@ -22,7 +24,7 @@ const RestaurantCard = (props) => {
       <div> {time + ' - ' + (time + 10) + " mins"} </div>
       </div>
       
-      <div className="res-cuisine"> {cusines.length > 20 ? cusines.slice(0, 20) + "...": cusines} </div>
+      <div className="res-cuisine"> {formattedCuisineText} </div>
       
     </div>
   );
