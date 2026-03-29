@@ -38,6 +38,8 @@ export const getSmartRecommendations = (cartItems, restaurants) => {
   const preferenceScores = getPreferenceScores(cartItems);
   const topCuisine = Object.entries(preferenceScores).sort((a, b) => b[1] - a[1])[0]?.[0];
 
+  // This is a lightweight "AI-style" ranking pass: infer cuisine intent from
+  // cart text, then score restaurants by cuisine overlap and rating.
   const rankedRestaurants = restaurants
     .map((restaurant) => {
       const cuisines = restaurant?.info?.cuisines || [];

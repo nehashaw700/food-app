@@ -13,6 +13,7 @@ const useRestaurantMenu = (resId) => {
   }, [dispatch, resId]);
 
   const refetchMenu = () => {
+    // Expose retry behavior from the hook so page components stay focused on UI.
     if (resId) {
       dispatch(fetchRestaurantMenu(resId));
     }

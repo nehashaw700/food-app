@@ -35,6 +35,8 @@ const RestaurantGridCell = memo(({ columnIndex, rowIndex, style, data }) => {
   return (
     <div style={{
       ...style,
+      // react-window gives each cell fixed coordinates; we trim and offset
+      // those bounds a bit so the cards render with visible gaps.
       left: style.left + GRID_GAP / 2,
       top: style.top + GRID_GAP / 2,
       width: style.width - GRID_GAP,
@@ -112,6 +114,8 @@ const Body = () => {
   }, []);
 
   const filteredRestaurants = useMemo(() => {
+    // Keep search filtering memoized because the virtualized grid re-renders
+    // frequently and we only want to recompute when inputs actually change.
     const normalizedSearchText = searchText.trim().toLowerCase();
 
     if (!normalizedSearchText) {
@@ -154,6 +158,7 @@ const Body = () => {
   }, [rowCount, viewportWidth]);
 
   const gridData = useMemo(() => {
+    // react-window passes one shared itemData object into every cell render.
     return {
       restaurants: filteredRestaurants,
       columnCount,

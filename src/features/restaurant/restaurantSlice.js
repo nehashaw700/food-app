@@ -44,6 +44,8 @@ export const fetchRestaurantMenu = createAsyncThunk(
   {
     condition: (resId, { getState }) => {
       const menuEntry = getState().restaurant.menuById[resId];
+      // Avoid duplicate requests when a menu is already loading or has already
+      // been cached for the selected restaurant.
       return !menuEntry || (menuEntry.status !== "loading" && !menuEntry.loaded);
     },
   }

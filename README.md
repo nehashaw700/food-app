@@ -1,70 +1,82 @@
-# Copilot Instructions for Food App (React)
+# ProFood
 
-## Architecture Overview
+A Swiggy-inspired React food ordering dashboard with Redux Toolkit, route-based navigation, offline-aware UX, loading skeletons, and smart frontend recommendations.
 
-This is a React food delivery app using **Parcel** bundler and **React Router v6** for navigation. The app follows a component-based architecture with custom hooks for shared logic.
+## Repository Description
 
-### Key Structure
-- **Entry Point**: `foodApp.js` - Defines router configuration with lazy-loaded components
-- **Layout**: `AppLayout` component renders `Header` + `Outlet` for nested routes
-- **Pages**: Body (restaurant list), About (lazy-loaded), Menu (dynamic restaurant details)
-- **Utils**: Custom hooks (`useRestaurantMenu`, `useOnlineStatus`) and mock API data
+`A Swiggy-style React food ordering dashboard built with Redux Toolkit, custom hooks, offline handling, and lightweight AI-powered restaurant recommendations.`
 
-## Critical Patterns & Conventions
+## Overview
 
-### 1. React Router v6 Setup
-- Use `createBrowserRouter` with nested routes
-- Routes defined as array of objects with `path`, `element`, `errorElement`, `children`
-- Lazy-load components using `lazy(() => import(...))` wrapped in `<Suspense>`
-- Use `<Outlet />` in parent layout for child route rendering
-- Navigation via `<Link to="/path">` (not `<a>` tags)
+ProFood is a frontend-focused food ordering project built with React and Parcel. It uses mock restaurant and menu data, but the app structure is designed in a way that can later be connected to real APIs with minimal architectural change.
 
-### 2. Custom Hooks Pattern
-- **`useRestaurantMenu(resId)`**: Filters mock data by restaurant ID, returns restaurant info
-- **`useOnlineStatus()`**: Tracks browser online/offline status via window events
-- All hooks return state that components can consume
-- Hooks handle side effects with `useEffect` and cleanup functions
+## Features
 
-### 3. Data Flow
-- **Mock Data**: `src/utils/mockData.js` contains restaurant array with structure: `{info: {id, name, cuisines, avgRating, ...}}`
-- Components filter/display data from mock data, not from external APIs (commented-out Swiggy API calls)
-- State management via `useState` - no Redux/Context currently used
+- Restaurant listing page with search
+- Virtualized restaurant grid using `react-window`
+- Restaurant menu page with expandable categories
+- Cart management using Redux Toolkit
+- Async state handling with `createAsyncThunk`
+- Global error boundary and route error UI
+- Loading skeletons and improved empty states
+- Offline-aware UX using a custom `useOnlineStatus` hook
+- Smart recommendations based on current cart contents
 
-### 4. Protected Routes
-- `ProtectedRoute` component wraps routes requiring authentication
-- Currently hardcoded `isAuthenticated = true` (placeholder implementation)
-- Use `<Navigate to="/login" replace />` for unauthorized access
+## Tech Stack
 
-### 5. Component Naming & Location
-- Functional components in `src/components/` named with PascalCase: `Header.js`, `Body.js`, `RestaurantCard.js`
-- Utils/hooks in `src/utils/` with camelCase: `mockData.js`, `useRestaurantMenu.js`
-- Components export default (e.g., `export default Header`)
+- React
+- React Router DOM
+- Redux Toolkit
+- React Redux
+- Parcel
+- react-window
 
-## Build & Development
+## Project Structure
 
-- **Start Dev Server**: `npm start` (runs Parcel on `index_react.html`)
-- **Build**: `npm run build`
-- **Test**: `npm test` (Jest configured, no test files currently)
-- **Bundler**: Parcel transpiles JSX via Babel automatically
+```text
+src/
+  components/   UI components and route-level views
+  features/     Redux feature slices
+    cart/
+    restaurant/
+  hooks/        Custom reusable hooks
+  services/     Data shaping and recommendation helpers
+  store/        Redux store setup
+  utils/        Mock data and shared context
+```
 
-## Important Implementation Details
+## Important Files
 
-- **JSX Considerations**: Use camelCase for attributes (`className`, not `class`); inline JS wrapped in `{}`
-- **Event Listeners**: Remember cleanup functions in `useEffect` when adding window/DOM listeners (see `useOnlineStatus`)
-- **Dynamic Routes**: Menu page uses route params like `/restaurants/:resId` - extract with `useParams()`
-- **Suspense**: Always provide `fallback` prop when lazy-loading components
-- **State Updates**: Use functional setState if new state depends on previous state
+- `src/foodApp.js`: app entry point, layout, and router configuration
+- `src/store/appStore.js`: Redux store setup
+- `src/features/cart/cartSlice.js`: cart state and actions
+- `src/features/restaurant/restaurantSlice.js`: restaurant list and menu async state
+- `src/hooks/useOnlineStatus.js`: online/offline state hook
+- `src/hooks/useRestaurantMenu.js`: restaurant menu loading hook
+- `src/services/recommendationService.js`: lightweight recommendation logic
 
-## When Modifying Code
+## Getting Started
 
-1. **Adding Routes**: Update `appRouter` children array in `foodApp.js`
-2. **Adding Components**: Place in `src/components/`, export default, import in routing config
-3. **Adding Utilities**: Create hook in `src/utils/` with `useXXX` naming convention
-4. **API Integration**: Replace mock data fetch in component with actual API calls (see commented Swiggy API)
-5. **Styling**: CSS imported in components; global styles in `index.css`
+### Install dependencies
 
-## Edge Cases to Handle
+```bash
+npm install
+```
 
-- **Offline State**: Body component shows "You are offline" message when `useOnlineStatus()` returns false
-- **Missing Data**: Menu component should handle empty restaurant info gracefully
-- **Route Not Found**: Error boundary component catches unmatched routes
+### Start the development server
+
+```bash
+npm start
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Notes
+
+- The app currently uses local mock data from `src/utils/mockData.js`.
+- API-facing async patterns are already set up with Redux Toolkit thunks.
+- The recommendation feature is intentionally frontend-only and uses simple scoring logic instead of a backend model.
